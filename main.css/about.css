@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+/*----Marketing----*/
+.Marketing{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top:60px
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+p{
+    color:#050303;
+    font-size: 16px;
+    font-weight:300;
+    line-height:22px;
+    padding:20px;
+    justify-content: center;
+}
+.row{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-between;
+}
+.collum{
+    flex-basis:30%;
+    background: #b8adad9d;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.collum:hover{
+    box-shadow: 0px 0px 10px 10px rgba(27, 130, 161, 0.87);
+    
+
+    /*|horizontal offset,vertical offset,blur,spread,colour|
+    The horizontal offset (required) of the shadow, positive means the shadow will be on the right of the box, 
+    a negative offset will put the shadow on the left of the box.
+    The vertical offset (required) of the shadow, a positive one means the shadow will be below the box,
+    a negative one means the box-shadow will be above the box. 
+    */
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin:10px 0px;
+}
+/*------------About--------------------*/
+.About{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.ab-collum{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom:30px;
+    position: relative;
+    overflow: hidden;
+}
+.ab-collum img{
+    width: 100%;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 0.5s;
+    top:0;
+}
+.layer:hover{
+    background: rgba(79, 96, 153, 0.747);
+}
+.layer h3{
+    width:100%;
+    font-weight: 600;
+    color:#050303;
+    font-size:x-large;
+    opacity: 0;
+    transition: 1s;
+    position: absolute;
+    bottom: 0;
+}
+.layer:hover h3{
+    opacity: 1;
+    bottom:80%
+}
+/*---------Footer-------*/
+.Main-footer{
+    width:100%;
+    text-align: center;
+    padding:30px;
+    color:#fff;
+}
+.footer{
+    width:100%;
+    text-align: center;
+    padding:30px;
+}
+.footer h4{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
