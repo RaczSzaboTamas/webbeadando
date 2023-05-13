@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="with=device-width,initial-scale=1.0">
         <title>Best Car Sales and Trades Ltd.</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="main.css/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
@@ -13,15 +13,16 @@
     <div class="Main-Container">
         <section class="header">
             <nav>
-                <a href="pakis.html"><img src="loggo.png"></a>
+                <a href="index.php"><img src="main.images/loggo.png"></a>
                 <div class="nav-links" id="NavLinks">
                     <i class="fa fa-times" onclick="hidemenu()"></i>
                     <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="blog.html">BLOG</a></li>
-                        <li><a href="gallery.html">GALLERY</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="index.php">HOME</a></li>
+                        <li><a href="about.php">ABOUT</a></li>
+                        <li><a href="blog.php">BLOG</a></li>
+                        <li><a href="gallery.php">GALLERY</a></li>
+                        <li><a href="contact.php">CONTACT</a></li>
+                        <li><a href="user_login/login.php">LOGIN</a></li>
                     </ul>
                 </div>
                 <i class="fa fa-bars" onclick="showmenu()"></i>
@@ -33,15 +34,7 @@
                         Widely spread in every county and price range. <br>You can buy or sell, it's up to you! 
                         Hurry up and get a great deal!
                     </p>
-                    <a href="database.html" class="main-button">Klick here to begin!</a> 
-                </div>
-                <div id="cookies">
-                    <div class="container">
-                        <div class="subcontainer">
-                            <p>This website uses cookies to ensure you to get the best experience on our website <a href="">More info</a></p>
-                            <button id="cookies-button">That's fine</button>
-                        </div>
-                    </div>
+                    <a href="user_registration/registration.php" class="main-button">Klick here to begin!</a> 
                 </div>
         </section>
 <section class="Main-footer">  

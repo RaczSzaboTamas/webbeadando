@@ -1,35 +1,17 @@
+<?php
+  
+  require_once 'head.php';
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <title>Image Gallery</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="gallery.css">
+        <link rel="stylesheet" type="text/css" href="main.css/gallery.css">
     </head>
   
     <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Image</a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Signup</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <div class="container">
             <div class="jumbotron">
                 <h1>

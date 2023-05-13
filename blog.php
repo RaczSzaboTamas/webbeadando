@@ -1,3 +1,8 @@
+<?php
+  
+  require_once 'head.php';
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,12 +11,12 @@
         </Title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="blog.css">
+        <link rel="stylesheet" type="text/css" href="main.css/blog.css">
     </head>
     <body>
         <header>
             <div class="intro">
-                <img class="img-fluid w-100" src="images/header.jpeg">
+                <img class="img-fluid w-100" src="main.images/header.jpeg">
                 <div class="head text-center">
                     <h1>
                         Welcome!
@@ -73,7 +78,7 @@
         <section class="Featured container my-5">
             <div class="row">
                 <div class="one col-lg-4 col-md-6 col-12 mb-3">
-                    <img class="img-fluid" src="images/Diesel.jpeg">
+                    <img class="img-fluid" src="main.images/Diesel.jpeg">
                     <div class="text w-75 h-50 text-light p-4">
                         <p>Diesel</p>
                         <h4>Diesel engines are better than electric</h4>
@@ -81,7 +86,7 @@
                     </div>
                 </div>
                 <div class="one col-lg-4 col-md-6 col-12 mb-3">
-                    <img class="img-fluid" src="images/gas.jpg">
+                    <img class="img-fluid" src="main.images/gas.jpg">
                     <div class="text w-75 h-50 text-light p-4">
                         <p>Gasoline</p>
                         <h4>Gasoline engines are better than electric</h4>
@@ -89,7 +94,7 @@
                     </div>
                 </div>
                 <div class="one col-lg-4 col-md-6 col-12 mb-3">
-                    <img class="img-fluid" src="images/electric-motor.jpg">
+                    <img class="img-fluid" src="main.images/electric-motor.jpg">
                     <div class="text w-75 h-50 text-light p-4">
                         <p>Electric</p>
                         <h4>Why are both Diesel and Gas engines better</h4>
@@ -115,37 +120,37 @@
                 <div class="post col-lg-8 col-md-8 col-12">
                     <div class="row">    
                         <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
-                            <img class="img-fluid pb-3" src="images/gas.jpg">
+                            <img class="img-fluid pb-3" src="main.images/gas.jpg">
                             <h3>Buy a gas powered car</h3>
                             <p>Gas powered cars are much better than electric cars, because it has noise, speed and POWAAAR</p>
                             <a href="#">Read More</a>
                         </div>
                         <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
-                            <img class="img-fluid pb-3" src="images/Diesel.jpeg">
+                            <img class="img-fluid pb-3" src="main.images/Diesel.jpeg">
                             <h3>Buy a Diesel powered car</h3>
                             <p>Diesel powered cars are much better than electric cars, because it has noise, speed and torque</p>
                             <a href="#">Read More</a>
                         </div>
                         <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
-                            <img class="img-fluid pb-3" src="images/electric-motor.jpg">
+                            <img class="img-fluid pb-3" src="main.images/electric-motor.jpg">
                             <h3>Don't buy an electrically powered car</h3>
                             <p>Electrically powered cars are not as great as the others, because they are like a nose hair trimmer</p>
                             <a href="#">Read More</a>
                         </div>
                         <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
-                            <img class="img-fluid pb-3" src="images/Tesla.jpg">
+                            <img class="img-fluid pb-3" src="main.images/Tesla.jpg">
                             <h3>Don't buy a Tesla</h3>
                             <p>Teslas are electric vehicles, but more expensive. They are expensive nose hair trimmers</p>
                             <a href="#">Read More</a>
                         </div>
                         <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
-                            <img class="img-fluid pb-3" src="images/GSPallas.jpg">
+                            <img class="img-fluid pb-3" src="main.images/GSPallas.jpg">
                             <h3>Buy classic cars</h3>
                             <p>Classic cars are a great way of relaxing in the weekends, going for a drive, or just looking at them</p>
                             <a href="#">Read More</a>
                         </div>
                         <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
-                            <img class="img-fluid pb-3" src="images/Vintage.jpg">
+                            <img class="img-fluid pb-3" src="main.images/Vintage.jpg">
                             <h3>Vintage cars</h3>
                             <p>Vintage cars are for looks, not drives. If you want, you can drive it, but it's highly uncomfortable, and is better to look at</p>
                             <a href="#">Read More</a>
@@ -154,7 +159,7 @@
                 </div>
                 <div class="sidebar col-lg-4 col-md-4 col-12">
                     <div class="side1 text-center pb-5">
-                        <img class="img-fluid mb-3" src="images/WDVintage.jpg">
+                        <img class="img-fluid mb-3" src="main.images/WDVintage.jpg">
                         <h3>Edd China and Mike Brewer</h3>
                         <h6>FULL TIME VEHICLE RESTORERS</h6>
                         <p>Edd China and Mike have been working together for a very long time. From the beginning, they bought vintage, classic cars and restored them to almost new looks</p>
@@ -164,7 +169,7 @@
                         <hr class="w-50">
                         <div class="row pb-3">
                             <div class="sideimg col-lg-4 col-md-4 col-4">
-                                <img class="img-fluid" src="images/GSPallas.jpg">
+                                <img class="img-fluid" src="main.images/GSPallas.jpg">
                             </div>
                             <div class="sidetext col-lg-8 col-md-8 col-8">
                                 <h4>Buy classic cars</h4>
@@ -173,7 +178,7 @@
                         </div>
                         <div class="row pb-3">
                             <div class="sideimg col-lg-4 col-md-4 col-4">
-                                <img class="img-fluid" src="images/Vintage.jpg">
+                                <img class="img-fluid" src="main.images/Vintage.jpg">
                             </div>
                             <div class="sidetext col-lg-8 col-md-8 col-8">
                                 <h4>Vintage cars</h4>
@@ -182,7 +187,7 @@
                         </div>
                         <div class="row pb-3">
                             <div class="sideimg col-lg-4 col-md-4 col-4">
-                                <img class="img-fluid" src="images/Diesel.jpeg">
+                                <img class="img-fluid" src="main.images/Diesel.jpeg">
                             </div>
                             <div class="sidetext col-lg-8 col-md-8 col-8">
                                 <h4>Buy a Diesel powered car</h4>
@@ -194,7 +199,7 @@
                         <h4>Interesting</h4>
                         <hr class="w-25">
                         <div class="one">
-                            <img class="img-fluid" src="images/Vintage.jpg">
+                            <img class="img-fluid" src="main.images/Vintage.jpg">
                             <div class="text text-center">
                                 <h4 class="text-light">Vintage cars are best for relaxing</h4>
                                 <button class="text-uppercase col-lg-5 col-md-12 py-3">Check now</button>
