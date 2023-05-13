@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration:none;
+    color: rgb(241, 233, 233);  
+}
+
+html{
+    font-size: 70%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px; 
+}
+header a{
+    position: relative;
+    font-size: 2rem;
+}
+header a:hover{
+    color: crimson;
+    transition: 1s;
+    
+}
+header #lgo a{
+    position: absolute;
+}
+header #main_tabs a{
+    margin-top: 4em;
+    margin-left: 2em;
+}
+header a span{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -60%;
+    right: -40%;
+    color: rgb(190, 201, 33);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: .2em;
+    text-align: center;
+}
