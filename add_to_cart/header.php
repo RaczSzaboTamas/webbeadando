@@ -25,7 +25,7 @@ $all_cart = $conn->query($sql_cart);
          <div id="main_tabs">
          <a href="home.php">Cars for Sale</a>    
          <a href="upload.php">Upload your car</a>
-         <a href="http://localhost/projects/Jelenlegi.1.0/User_login/index.php">Log out</a>                 
+         <a href="../user_login/index.php">Log out</a>                 
          </div>
          <a href="cart.php">Cart<span id="badge"><?php echo mysqli_num_rows($all_cart);  ?></span></a>
      </header>

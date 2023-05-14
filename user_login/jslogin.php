@@ -14,7 +14,7 @@ if($result){
     $user = $stmtselect->fetch(PDO::FETCH_ASSOC);
     if($stmtselect->rowCount()>0){
         $_SESSION['userlogin']=$user;
-        echo '1';
+        echo 'Your login details have been authenticated!';
     }else{
         echo 'There isnt any user for the provided information!';
     }
