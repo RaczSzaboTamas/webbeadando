@@ -59,13 +59,13 @@
                 <div class="ab-collum">
                     <img src="main.images/company.png" alt="">
                     <div class="layer">
-                        <h3>Győr</h3>
+                        <h3>Gyor</h3>
                     </div>
                 </div>
                 <div class="ab-collum">
                     <img src="main.images/office.png" alt="">
                     <div class="layer">
-                        <h3>Kecskemét</h3>
+                        <h3>Kecskemet</h3>
                     </div>
                 </div>
             </div>
