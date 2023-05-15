@@ -65,7 +65,7 @@ require_once('config.php');
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript">
         $(function(){
-            //alert('A KURVA NEMMUKODOS ANYADAT!');
+            
            $('#register').click(function(e){
 
                 var valid = this.form.checkValidity();
